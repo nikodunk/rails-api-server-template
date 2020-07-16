@@ -6,6 +6,14 @@
 
 3) `rails server`
 
+
+GET http://localhost:3000/api/v1/structures
+GET http://localhost:3000/api/v1/structures/1
+POST http://localhost:3000/api/v1/structures {"title":"foo","body":"bar"}
+PUT http://localhost:3000/api/v1/structures/1 {"title":"foo","body":"bar"}
+DELETE http://localhost:3000/api/v1/structures/1
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
@@ -13,9 +21,13 @@ Things you may want to cover:
 
 * Ruby version
 Rails 6
+
+
 * System dependencies
 
 * Configuration
+
+
 
 * Database creation
 
